@@ -1,4 +1,4 @@
-package com.example.taskstrreak
+package com.example.taskStreak
 
 import org.junit.Test
 

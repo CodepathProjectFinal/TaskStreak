@@ -1,4 +1,4 @@
-package com.example.taskstrreak
+package com.example.taskStreak
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

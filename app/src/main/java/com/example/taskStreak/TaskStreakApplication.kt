@@ -1,4 +1,4 @@
-package com.example.taskstrreak
+package com.example.taskStreak
 
 import android.app.Application
 import com.parse.Parse

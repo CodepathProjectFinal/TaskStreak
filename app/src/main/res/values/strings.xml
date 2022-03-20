@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TaskStrreak</string>
+    <string name="app_name">TaskStreak</string>
 
     <string name="back4app_server_url">https://parseapi.back4app.com/</string>
 
