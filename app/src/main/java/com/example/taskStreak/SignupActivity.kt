@@ -1,5 +1,6 @@
 package com.example.taskStreak
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -15,7 +16,7 @@ class SignupActivity : AppCompatActivity() {
         // OnClickListener for signup
         findViewById<Button>(R.id.signup_btnSignup).setOnClickListener {
 
-            // Text from the 3 editTexts
+            // Text from the 4 editTexts
             val username = findViewById<EditText>(R.id.signup_etUsername).text.toString()
             val password = findViewById<EditText>(R.id.signup_etPassword).text.toString()
             val passwordConfirm = findViewById<EditText>(R.id.signup_etPasswordConfirm).text.toString()
@@ -42,7 +43,6 @@ class SignupActivity : AppCompatActivity() {
         user.signUpInBackground { e ->
             if (e == null) {
                 // User successfully made new account
-                TODO("go to mainActivity")
                 Toast.makeText(this, "Successfully signed up", Toast.LENGTH_SHORT).show()
             } else {
                 e.printStackTrace()

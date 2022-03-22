@@ -13,7 +13,7 @@ class StartActivity : AppCompatActivity() {
 
         // If user is already logged in, go to ...
         if (ParseUser.getCurrentUser() != null) {
-            TODO("Go to main activity")
+            // go to main activity
         }
 
         // OnClickListener for login
