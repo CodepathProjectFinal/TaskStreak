@@ -26,15 +26,16 @@ An app that helps the user organize and remind them of their tasks.
 
 **Required Must-have Stories**
 
-* User can view a list of tasks
-* User can add and delete tasks
-* User can mark a task as completed, playing a sound
-* Users can view a daily streak for task completion
+- [x] User can log in and sign up
+- [ ] User can view a list of tasks
+- [ ] User can add and delete tasks
+- [ ] User can mark a task as completed, playing a sound
+- [ ] Users can view a daily streak for task completion
 
 **Optional Nice-to-have Stories**
 
-* Tasks can be viewed in a calendar format
-* Audio effects are played (ie: congratulatory sound effect when user completes a tasks or sets a new streak record) during certain events
+- [ ] Tasks can be viewed in a calendar format
+- [ ] Audio effects are played (ie: congratulatory sound effect when user completes a tasks or sets a new streak record) during certain events
 
 
 ### 2. Screen Archetypes
