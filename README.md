@@ -29,7 +29,7 @@ An app that helps the user organize and remind them of their tasks.
 - [x] User can log in and sign up
 - [ ] User can view a list of tasks
 - [ ] User can add and delete tasks
-- [ ] User can mark a task as completed, playing a sound
+- [ ] User can mark a task as completed
 - [ ] Users can view a daily streak for task completion
 
 **Optional Nice-to-have Stories**
