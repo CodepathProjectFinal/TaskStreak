@@ -13,7 +13,9 @@ class StartActivity : AppCompatActivity() {
 
         // If user is already logged in, go to ...
         if (ParseUser.getCurrentUser() != null) {
-            // go to main activity
+            val intent = Intent(this@StartActivity, MainActivity::class.java)
+            startActivity(intent)
+            finish()
         }
 
         // OnClickListener for login

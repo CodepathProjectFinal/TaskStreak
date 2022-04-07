@@ -1,5 +1,6 @@
 package com.example.taskStreak
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -27,6 +28,9 @@ class LoginActivity : AppCompatActivity() {
             if (user != null) {
                 Log.i(TAG, "Successfully logged in user")
                 // go to main activity
+                val intent = Intent(this@LoginActivity, MainActivity::class.java)
+                startActivity(intent)
+                finish()
             } else {
                 e.printStackTrace()
                 Toast.makeText(this, "Error logging in", Toast.LENGTH_SHORT).show()
