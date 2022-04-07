@@ -27,10 +27,10 @@ An app that helps the user organize and remind them of their tasks.
 **Required Must-have Stories**
 
 - [x] User can log in and sign up
-- [ ] User can view a list of tasks
-- [ ] User can add and delete tasks
-- [ ] User can mark a task as completed
-- [ ] Users can view a daily streak for task completion
+- [x] User can view a list of tasks
+- [x] User can add and delete tasks
+- [x] User can mark a task as completed
+- [x] Users can view a daily streak for task completion
 
 **Optional Nice-to-have Stories**
 
