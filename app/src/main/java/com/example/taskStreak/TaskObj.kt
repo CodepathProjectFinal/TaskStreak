@@ -23,9 +23,18 @@ class TaskObj : ParseObject() {
         put (KEY_USER, user)
     }
 
+    fun getCompleted(): Boolean {
+        return getBoolean(KEY_DESCRIPTION)
+    }
+
+    fun setCompleted(completed: Boolean) {
+        put (KEY_COMPLETED, completed)
+    }
+
     companion object {
         const val KEY_DESCRIPTION = "description"
         const val KEY_USER = "user"
+        const val KEY_COMPLETED = "completed"
     }
 
 }

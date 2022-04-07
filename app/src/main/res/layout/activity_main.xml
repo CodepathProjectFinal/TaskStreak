@@ -10,8 +10,8 @@
         android:id="@+id/main_btnAdd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add"
         android:layout_margin="10dp"
+        android:text="Add"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -19,8 +19,8 @@
         android:id="@+id/main_etAddTask"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="Add a task"
         android:layout_margin="10dp"
+        android:hint="Add a task"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/main_btnAdd"
         app:layout_constraintStart_toStartOf="parent" />
@@ -28,9 +28,30 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/main_rvTaskFeed"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/main_etAddTask"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_tvStreak" />
+
+    <TextView
+        android:id="@+id/main_tvStreak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Streak: "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/main_btnLogOut"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/main_btnLogOut" />
+
+    <Button
+        android:id="@+id/main_btnLogOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:layout_margin="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

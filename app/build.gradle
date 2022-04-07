@@ -7,7 +7,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.taskstrreak"
+        applicationId "com.example.taskStreak"
         minSdk 21
         targetSdk 32
         versionCode 1
